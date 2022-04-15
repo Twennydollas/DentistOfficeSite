@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/**
+ *Created on : Apr 13, 2022
+ *  Author     : Justin Rismiller    
+ */
+
+body {	
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/pexels-anna-shvets-3845729.jpg);/*Photo by Anna Shvets from Pexels*/
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#login{
+    min-width: 50%;
+    height: fit-content;
+    border: 5px solid black;
+    border-radius: 14px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    padding: 20px;
+    background-color: #FFFFFF; 
+    color: black;
+    text-align: center;
+}
+#alignForm{
+    text-align: center;
+    padding: 0% 10%;
+    
+}
+label{ 
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+select{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+}
+input{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
